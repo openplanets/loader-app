@@ -33,8 +33,10 @@ import eu.scapeproject.model.TestUtil;
 import eu.scapeproject.pt.main.Configuration;
 import eu.scapeproject.pt.threads.LifecycleRunnable;
 import eu.scapeproject.pt.threads.StopLifecycelTask;
+import eu.scapeproject.model.*;
 import eu.scapeproject.util.ScapeMarshaller;
 
+@Deprecated
 public class AppLoaderThreadpool {
 	
 	

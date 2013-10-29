@@ -19,8 +19,8 @@ import eu.scapeproject.LoaderApplication;
 import eu.scapeproject.Sip;
 import eu.scapeproject.Sip.STATE;
 import eu.scapeproject.model.IntellectualEntity;
-import eu.scapeproject.model.mets.SCAPEMarshaller;
-import eu.scapeproject.model.util.TestUtil;
+import eu.scapeproject.model.*;
+import eu.scapeproject.util.ScapeMarshaller;
 import eu.scapeproject.pt.main.Configuration;
 
 
@@ -30,6 +30,7 @@ import eu.scapeproject.pt.main.Configuration;
  * @author mhn
  *
  */
+@Deprecated
 public class AppLoaderTCKTest {
 	
 	private static final ConnectorAPIMock MOCK = new ConnectorAPIMock(8387);

@@ -12,8 +12,8 @@ import org.mortbay.jetty.testing.ServletTester;
 
 import eu.scapeproject.LoaderApplication;
 import eu.scapeproject.model.IntellectualEntity;
-import eu.scapeproject.model.mets.SCAPEMarshaller;
-import eu.scapeproject.model.util.TestUtil;
+import eu.scapeproject.model.*;
+import eu.scapeproject.util.ScapeMarshaller;
 import eu.scapeproject.pt.main.Configuration;
 import eu.scapeproject.util.ScapeMarshaller;
 

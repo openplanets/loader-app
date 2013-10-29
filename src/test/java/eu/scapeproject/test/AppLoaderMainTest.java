@@ -19,7 +19,7 @@ import eu.scapeproject.pt.main.LoaderIO;
  * @author mhn
  *
  */
-
+@Deprecated
 public class AppLoaderMainTest {
 	
 	private static final ConnectorAPIMock MOCK = new ConnectorAPIMock(8387);
