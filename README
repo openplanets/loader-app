@@ -2,7 +2,7 @@ SCAPE Loader Application
 ===========================
 
 This is the Loader Application for SCAPE repositories. 
-The project depends on https://github.com/fasseg/scape-tck
+
 
 The usage of the application is via command line
 
