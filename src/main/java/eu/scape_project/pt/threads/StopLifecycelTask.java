@@ -1,13 +1,13 @@
-package eu.scapeproject.pt.threads;
+package eu.scape_project.pt.threads;
 
 import java.sql.SQLException;
 import java.util.Deque;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledFuture;
 
-import eu.scapeproject.LoaderApplication;
-import eu.scapeproject.Sip;
-import eu.scapeproject.Sip.STATE;
+import eu.scape_project.LoaderApplication;
+import eu.scape_project.Sip;
+import eu.scape_project.Sip.STATE;
 
 /**
  * Stops the Lifecycle Thread after a certain condition (not yet implemented just a period of time currently) 

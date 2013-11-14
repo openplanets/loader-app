@@ -1,4 +1,4 @@
-package eu.scapeproject.pt.main;
+package eu.scape_project.pt.main;
 
 import java.net.URI;
 import java.net.URLEncoder;
@@ -13,20 +13,20 @@ import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.ParseException;
 
-import eu.scapeproject.Sip.STATE;
-import eu.scapeproject.pt.auth.EsciDocAuthentication;
-import eu.scapeproject.pt.auth.IAuthentication;
-import eu.scapeproject.pt.main.Options;
-import eu.scapeproject.pt.threads.LifecycleRunnable;
-import eu.scapeproject.pt.threads.StopLifecycelTask;
+import eu.scape_project.LoaderApplication;
+import eu.scape_project.Sip;
+import eu.scape_project.Sip.STATE;
+import eu.scape_project.pt.auth.EsciDocAuthentication;
+import eu.scape_project.pt.auth.IAuthentication;
+import eu.scape_project.pt.main.Options;
+import eu.scape_project.pt.threads.LifecycleRunnable;
+import eu.scape_project.pt.threads.StopLifecycelTask;
 
 import org.apache.commons.cli.PosixParser;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
 
-import eu.scapeproject.LoaderApplication;
-import eu.scapeproject.Sip;
 
 
 /**

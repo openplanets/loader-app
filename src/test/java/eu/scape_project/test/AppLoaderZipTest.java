@@ -1,4 +1,4 @@
-package eu.scapeproject.test;
+package eu.scape_project.test;
 
 import static org.junit.Assert.*;
 
@@ -7,7 +7,7 @@ import java.io.IOException;
 import org.junit.Before;
 import org.junit.Test;
 
-import eu.scapeproject.pt.main.LoaderIO;
+import eu.scape_project.pt.main.LoaderIO;
 
 
 /**

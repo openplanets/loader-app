@@ -1,4 +1,4 @@
-package eu.scapeproject.pt.main;
+package eu.scape_project.pt.main;
 
 
 

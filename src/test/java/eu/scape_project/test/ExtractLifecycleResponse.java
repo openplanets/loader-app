@@ -1,4 +1,4 @@
-package eu.scapeproject.test;
+package eu.scape_project.test;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

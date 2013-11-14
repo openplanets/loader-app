@@ -1,4 +1,4 @@
-package eu.scapeproject.test;
+package eu.scape_project.test;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -9,8 +9,8 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
-import eu.scapeproject.model.IntellectualEntity;
-import eu.scapeproject.util.ScapeMarshaller;
+import eu.scape_project.model.IntellectualEntity;
+import eu.scape_project.util.ScapeMarshaller;
 
 
 

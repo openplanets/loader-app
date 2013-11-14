@@ -1,4 +1,4 @@
-package eu.scapeproject.test;
+package eu.scape_project.test;
 
 import java.io.IOException;
 import java.io.PrintWriter;

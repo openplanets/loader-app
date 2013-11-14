@@ -1,4 +1,4 @@
-package eu.scapeproject.test;
+package eu.scape_project.test;
 
 import java.io.FileOutputStream;
 import java.net.URI;
@@ -10,12 +10,10 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.mortbay.jetty.testing.ServletTester;
 
-import eu.scapeproject.LoaderApplication;
-import eu.scapeproject.model.IntellectualEntity;
-import eu.scapeproject.model.*;
-import eu.scapeproject.util.ScapeMarshaller;
-import eu.scapeproject.pt.main.Configuration;
-import eu.scapeproject.util.ScapeMarshaller;
+import eu.scape_project.LoaderApplication;
+import eu.scape_project.model.*;
+import eu.scape_project.pt.main.Configuration;
+import eu.scape_project.util.ScapeMarshaller;
 
 
 /**
@@ -48,7 +46,7 @@ public class AppLoaderTests {
 		for (int i=0; i<100; i++) {
 			String sipFileName = conf.getDir() + "mets_entity_" + i + ".xml";
 			java.io.File xmlFile=new java.io.File(sipFileName);
-			IntellectualEntity entity=eu.scapeproject.model.TestUtil.createTestEntity("mets_entity_" + i );
+			IntellectualEntity entity=eu.scape_project.model.TestUtil.createTestEntity("mets_entity_" + i );
 			FileOutputStream out=new FileOutputStream(xmlFile);
 			ScapeMarshaller.newInstance().serialize(entity, out);
 			loaderApplication.enqueuSip(URI.create("file:" + sipFileName));

@@ -1,4 +1,4 @@
-package eu.scapeproject;
+package eu.scape_project;
 
 import java.net.URI;
 import java.sql.Connection;
@@ -11,7 +11,7 @@ import java.sql.Statement;
 import java.util.Deque;
 import java.util.LinkedList;
 
-import eu.scapeproject.Sip.STATE;
+import eu.scape_project.Sip.STATE;
 
 /**
  * @author Shai Ben-Hur

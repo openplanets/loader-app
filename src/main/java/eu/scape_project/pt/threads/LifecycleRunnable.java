@@ -1,4 +1,4 @@
-package eu.scapeproject.pt.threads;
+package eu.scape_project.pt.threads;
 
 import java.net.URLEncoder;
 import java.util.Deque;
@@ -9,12 +9,12 @@ import java.util.concurrent.ScheduledFuture;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.log4j.Logger;
 
-import eu.scapeproject.LoaderApplication;
-import eu.scapeproject.LoaderDao;
-import eu.scapeproject.Sip;
-import eu.scapeproject.Sip.STATE;
-import eu.scapeproject.pt.auth.EsciDocAuthentication;
-import eu.scapeproject.pt.auth.IAuthentication;
+import eu.scape_project.LoaderApplication;
+import eu.scape_project.LoaderDao;
+import eu.scape_project.Sip;
+import eu.scape_project.Sip.STATE;
+import eu.scape_project.pt.auth.EsciDocAuthentication;
+import eu.scape_project.pt.auth.IAuthentication;
 
 
 public class LifecycleRunnable implements Runnable {

@@ -1,10 +1,10 @@
-package eu.scapeproject.test;
+package eu.scape_project.test;
 
 import org.apache.commons.cli.ParseException;
 import org.junit.Test;
 
-import eu.scapeproject.pt.auth.EsciDocAuthentication;
-import eu.scapeproject.pt.main.Loader;
+import eu.scape_project.pt.auth.EsciDocAuthentication;
+import eu.scape_project.pt.main.Loader;
 
 public class AppLoaderEsciDoc {
 	

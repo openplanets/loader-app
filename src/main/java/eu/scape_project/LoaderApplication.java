@@ -1,4 +1,4 @@
-package eu.scapeproject;
+package eu.scape_project;
 
 import java.io.InputStream;
 import java.net.URI;
@@ -21,10 +21,10 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.log4j.Logger;
 
 
-import eu.scapeproject.Sip.STATE;
-import eu.scapeproject.pt.auth.EsciDocAuthentication;
-import eu.scapeproject.pt.auth.IAuthentication;
-import eu.scapeproject.pt.main.Configuration;
+import eu.scape_project.Sip.STATE;
+import eu.scape_project.pt.auth.EsciDocAuthentication;
+import eu.scape_project.pt.auth.IAuthentication;
+import eu.scape_project.pt.main.Configuration;
 
 /**
  * @author Shai Ben-Hur

@@ -1,4 +1,4 @@
-package eu.scapeproject.pt.main;
+package eu.scape_project.pt.main;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -22,8 +22,8 @@ import org.apache.hadoop.io.SequenceFile;
 import org.apache.hadoop.io.Text;
 import org.apache.log4j.Logger;
 
-import eu.scapeproject.model.*;
-import eu.scapeproject.util.ScapeMarshaller;
+import eu.scape_project.model.*;
+import eu.scape_project.util.ScapeMarshaller;
 
 /**
  * Helper class to handle file io, generate random sips and other stuff
@@ -116,7 +116,7 @@ public class LoaderIO {
 		for (int i=0; i<numberOfSips; i++) {
 			String sipFileName = "sips/mets_entity_" + i + ".xml";
 			java.io.File xmlFile=new java.io.File(sipFileName);
-			IntellectualEntity entity=eu.scapeproject.model.TestUtil.createTestEntity("entity-1001");
+			IntellectualEntity entity=eu.scape_project.model.TestUtil.createTestEntity("entity-1001");
 			FileOutputStream out=new FileOutputStream(xmlFile);
 			ScapeMarshaller.newInstance().serialize(entity, out);
 		}

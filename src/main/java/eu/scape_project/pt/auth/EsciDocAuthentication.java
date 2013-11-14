@@ -1,4 +1,4 @@
-package eu.scapeproject.pt.auth;
+package eu.scape_project.pt.auth;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -18,7 +18,7 @@ import org.apache.http.impl.client.DefaultRedirectStrategy;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 
-import eu.scapeproject.pt.main.Configuration;
+import eu.scape_project.pt.main.Configuration;
 
 public final class EsciDocAuthentication implements IAuthentication {
 	

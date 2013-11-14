@@ -1,4 +1,4 @@
-package eu.scapeproject.test;
+package eu.scape_project.test;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -30,7 +30,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import eu.scapeproject.pt.main.Loader;
+import eu.scape_project.pt.main.Loader;
 
 /**
  * Test to login at escidoc with HTTPClient

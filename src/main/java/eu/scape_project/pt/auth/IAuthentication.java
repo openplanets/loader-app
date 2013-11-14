@@ -1,4 +1,4 @@
-package eu.scapeproject.pt.auth;
+package eu.scape_project.pt.auth;
 
 import org.apache.http.impl.client.DefaultHttpClient;
 
