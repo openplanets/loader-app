@@ -116,7 +116,7 @@ public class LoaderIO {
 		for (int i=0; i<numberOfSips; i++) {
 			String sipFileName = "sips/mets_entity_" + i + ".xml";
 			java.io.File xmlFile=new java.io.File(sipFileName);
-			IntellectualEntity entity=eu.scape_project.model.TestUtil.createTestEntity("entity-1001");
+			IntellectualEntity entity=TestUtil.createTestEntity("entity-1001");
 			FileOutputStream out=new FileOutputStream(xmlFile);
 			ScapeMarshaller.newInstance().serialize(entity, out);
 		}
