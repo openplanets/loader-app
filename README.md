@@ -1,16 +1,15 @@
 # SCAPE Loader Application
 
-The SCAPE Loader Application helps to ingest SCAEP Digital Objects into a SCAPE Digital Object Repository.
+The SCAPE Loader Application helps to ingest SCAPE Digital Objects into a SCAPE Digital Object Repository.
 
 ### What does the Loader Application do?
 
-
 The Loader Application helps the user to ingest SCAPE Digital Objects into the SCAPE Digital Object Repository.
-The digital objects can reside in a directory on the useres file system, in a zip file or even in a sequence file on HDFS, the Hadoop file system.
-the Loader Application queues the objects for ingest and monitors the ingest process by retrieving the lifecycle states of the ingested object.
+The digital objects can reside in a directory on the users file system, in a zip file or even in a sequence file on HDFS, the Hadoop file system.
+The Loader Application queues the objects for ingest and monitors the ingest process by retrieving the lifecycle states of the ingested object.
 A log file helps the user to watch the ingest process. 
 
-### Who is intended audience?
+### Who is the intended audience?
 
 The SCAPE Loader Application is meant for the Content Holder to have a tool ready that helps to ingest a large amount of objects.
 
@@ -26,9 +25,21 @@ The SCAPE Loader Application is meant for the Content Holder to have a tool read
     * added new SCAPE platform model
 
 
-
 ## How to install and use
 
+### Requirements
+
+To install you need:
+
+* scape-platform-datamodel
+
+### Install instructions
+
+To install follow these steps:
+
+* mvn clean package (e.g. if you just want to create a runnable jar file)
+
+### Use
 
 The usage of the application is via command line
 
@@ -70,3 +81,18 @@ The Input source can be also a zip file on the local file system.
 ```bash
 The -d option can be then e.g. /path_to_the_zipfile/the_zip_file.zip
 ```
+
+### Build
+
+To compile go to the sources folder and execute the command:
+
+```bash
+$ mvn clean package
+```
+After successful compile the binary will be available at `target/loader-app-0.0.2-SNAPSHOT-jar-with-dependencies.jar`.
+
+
+### Acknowledgements
+
+Part of this work was supported by the European Union in the 7th Framework Program, IST, through the SCAPE project, Contract 270137.
+
