@@ -6,7 +6,8 @@ This is the Loader Application for SCAPE repositories.
 
 The usage of the application is via command line
 
-usage: java -jar loader-app-0.0.1-SNAPSHOT-jar-with-dependencies.jar [-c
+```bash
+usage: java -jar loader-app-0.0.2-SNAPSHOT-jar-with-dependencies.jar [-c
        <arg>] [-d <arg>] [-h] [-i <arg>] [-l <arg>] [-p <arg>] [-r <arg>]
        [-t <arg>] [-u <arg>]
  -c,--checklifecycle <arg>   activate the periodic lifecycle retrieval.
@@ -23,6 +24,7 @@ usage: java -jar loader-app-0.0.1-SNAPSHOT-jar-with-dependencies.jar [-c
                              [default: 100 min].
  -u,--username <arg>         username of the repository user.
 
+```
  
 To use the Loader Application with your Repository you must provide an
 implementation of the IAuthentication interface. An example impl with escidoc

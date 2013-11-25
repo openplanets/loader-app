@@ -3,25 +3,20 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>eu.scape-project</groupId>
 	<artifactId>loader-app</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<dependencies>
 		<dependency>
 			<groupId>eu.scape-project.model</groupId>
 			<artifactId>scape-platform-datamodel</artifactId>
-			<version>0.1.6-SNAPSHOT</version>
+			<version>0.1.7-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>eu.scape-project.model</groupId>
 			<artifactId>scape-platform-datamodel</artifactId>
-			<version>0.1.6-SNAPSHOT</version>
+			<version>0.1.7-SNAPSHOT</version>
 			<classifier>tests</classifier>
 		</dependency>
-		<!-- dependency>
-			<groupId>de.congrace</groupId>
-			<artifactId>scape-tck</artifactId>
-			<version>0.0.3-SNAPSHOT</version>
-		</dependency-->
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
@@ -102,7 +97,7 @@
           			</descriptorRefs>
           			<archive>
             		<manifest>
-              			<mainClass>eu.scapeproject.pt.main.Loader</mainClass>
+              			<mainClass>eu.scape_project.pt.main.Loader</mainClass>
             		</manifest>
           			</archive>
        			 </configuration>
