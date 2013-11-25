@@ -29,12 +29,18 @@ usage: java -jar loader-app-0.0.2-SNAPSHOT-jar-with-dependencies.jar [-c
 To use the Loader Application with your Repository you must provide an
 implementation of the IAuthentication interface. An example impl with escidoc
 is called EsciDocAuthentication. Please refere to the Loader.java class for further usage.
+```Java
 LoaderApplication loaderapp = new LoaderApplication(conf, new EsciDocAuthentication());
+```
 
 The Input source can be a sequence file on hdfs. In this case check the hadoop-core version 
 in the POM to avoid version mismatch of Hadoop versions. The -d option can be then 
+```bash
 hdfs://your_hadoop_host:your_hadoop_port/path_to_the_sequencefile/the_sequence_file.seq
 e.g. hdfs://localhost:8020/user/scape/mysequencefile.seq
+```
 
 The Input source can be also a zip file on the local file system. 
+```bash
 The -d option can be then e.g. /path_to_the_zipfile/the_zip_file.zip
+```
