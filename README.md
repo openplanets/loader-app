@@ -1,7 +1,33 @@
-SCAPE Loader Application
-===========================
+# SCAPE Loader Application
 
-This is the Loader Application for SCAPE repositories. 
+The SCAPE Loader Application helps to ingest SCAEP Digital Objects into a SCAPE Digital Object Repository.
+
+### What does the Loader Application do?
+
+
+The Loader Application helps the user to ingest SCAPE Digital Objects into the SCAPE Digital Object Repository.
+The digital objects can reside in a directory on the useres file system, in a zip file or even in a sequence file on HDFS, the Hadoop file system.
+the Loader Application queues the objects for ingest and monitors the ingest process by retrieving the lifecycle states of the ingested object.
+A log file helps the user to watch the ingest process. 
+
+### Who is intended audience?
+
+The SCAPE Loader Application is meant for the Content Holder to have a tool ready that helps to ingest a large amount of objects.
+
+## Features and roadmap
+
+
+### Version 0.0.1
+
+    * added support for sequence files on HDFS
+    
+### Version 0.0.2
+
+    * added new SCAPE platform model
+
+
+
+## How to install and use
 
 
 The usage of the application is via command line
