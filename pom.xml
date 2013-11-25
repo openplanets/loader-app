@@ -102,7 +102,7 @@
 			<artifactId>hadoop-core</artifactId>
 			<version>0.20.203.0</version>
 		</dependency -->
-		<!-- AIT, IMF, Laptop und OpenSuse -->
+		<!-- AIT and IMF cluster -->
 		<dependency>
 			<groupId>org.apache.hadoop</groupId>
 			<artifactId>hadoop-core</artifactId>
