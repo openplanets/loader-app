@@ -14,5 +14,5 @@ before_install:
   - git clone https://github.com/openplanets/scape-platform-datamodel.git
   - cd scape-platform-datamodel
   - mvn clean install -DskipTests=true
-  - cd ..
+  - cd ../loader-app
 
